@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#1B4353,#F88DAD);
     color: #ffffff;
 }
 
@@ -12,12 +12,12 @@ h1, h2, h3, h4, p {
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #F88DAD;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #F88DAD;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #F88DAD;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -81,11 +81,37 @@ h1, h2, h3, h4, p {
 #gift-img-cheers:hover {
     background-image: url("images/cheers.gif");
 }
+#Pic:hover {
+    background-image: url("images/Pic.jpg");
+}
+#Wish{
+    font-size: 20px;
+    margin: 20px auto;
+    max-width: 560px;
+    height: 333px;
+    background-image: url("images/Message_cover.jpg");
+    border: 1px solid white;
+}
+#wish:hover::after{
+    font-weight: bold;
+    content: 'Happy Birthday my friend. Thanks for supporting me in every condition and backing me up when no one else was there, Thanks for all the great moments and memories. I pray that Allah grants you best of both worlds. Stay blessed, Happy and prosperous in every phase of life.';
+}
+#wish:hover{
+    background: #F88DAD;
+}
 
 #footer {
     font-style: italic;
     width: 400px;
     margin: 40px auto 20px;
+}
+.Icons #instagram{
+    padding-right:40%;
+    font-size: 50px;
+}
+.Icons #linkedin{
+    padding-left:49%;
+    font-size: 50px;
 }
 
 a {
