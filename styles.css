@@ -105,6 +105,9 @@ h1, h2, h3, h4, p {
     width: 400px;
     margin: 40px auto 20px;
 }
+.Icons{
+    margin-top: 40px;
+}
 .Icons #instagram{
     padding-right:40%;
     font-size: 50px;
